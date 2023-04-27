@@ -15,8 +15,10 @@ class Sender:
         with open('config.yaml') as f:
             config = yaml.load(f, Loader=yaml.FullLoader)
 
-        self.channelid=config['channelid']
+        self.origin=config['origin']
+        self.referer=config['referer']
         self.authorization=config['authorization']
+        self.channelid=config['channelid']
         self.application_id = config['application_id']
         self.guild_id = config['guild_id']
         self.session_id = config['session_id']
@@ -26,7 +28,9 @@ class Sender:
         
     def send(self, data):
         header = {
-            'authorization': self.authorization
+            'authorization': self.authorization,
+            'origin': self.origin,
+            'referer': self.referer
         }
 
         #拼装mj参数
