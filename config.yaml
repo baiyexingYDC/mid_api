@@ -1,8 +1,8 @@
-authorization: 'MTA1MzY5NzUwNDE2OTk1OTQzNw.GKxmGn.JOm4fXQS5JFMp_pYARokNQFAYh6bVXN0NJjEHU'
+authorization: 'MTA1MzY5NzUwNDE2OTk1OTQzNw.G1VwFs.ny2p3W7xJ0eoTpq-dPOCdsRIKlzaVoPen7k8H8'
 channelid: '1098822806273265688'
-session_id: 'e9e3a980aff645f2d0e5379d5a9ec497'
+session_id: '90f3a9633026b0f73bcc1baea95c50ac'
 guild_id: '1098822806273265685'
 application_id: '936929561302675456'
 version: '1077969938624553050'
 id: '938956540159881230'
-
+db_path: 'images.db'

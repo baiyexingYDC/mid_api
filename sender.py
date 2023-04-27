@@ -1,10 +1,13 @@
 import requests
 import yaml
 
+from db import Db
+
+
 class Sender:
 
     def __init__(self):
-
+        self.db = Db()
         self.sender_initializer()
 
     def sender_initializer(self):
@@ -31,6 +34,7 @@ class Sender:
         params = " ".join(data.get("params", []))
         prompt = prompt + ' ' + params
         #保存到数据库并记录id
+        self.db.add_mj_prompt_task(prompt)
 
         payload = {'type': 2, 
         'application_id': self.application_id,
