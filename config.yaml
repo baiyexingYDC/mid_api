@@ -1,10 +1,14 @@
-authorization: 'MTA1MzY5NzUwNDE2OTk1OTQzNw.GAUvbJ.ks8aXIaNPw5lS_3ernUIo0diqLBp9LZNxg4lVc'
-channelid: '1098822806273265688'
-session_id: '90f3a9633026b0f73bcc1baea95c50ac'
-guild_id: '1098822806273265685'
-application_id: '936929561302675456'
-version: '1077969938624553050'
-id: '938956540159881230'
-origin: 'https://discord.com'
-referer: 'https://discord.com/channels/1098822806273265685/1098822806273265688'
+header:
+  authorization: 'MTA1MzY5NzUwNDE2OTk1OTQzNw.GLLcnm.jYM8x9jEXAyblW4RWfEAjA_gKeKlu37XmuK4J0'
+  origin: 'https://discord.com'
+  referer: 'https://discord.com/channels/1098822806273265685/1098822806273265688'
+
+payload:
+  channelid: '1098822806273265688'
+  session_id: 'c3ec4467df9afbc69335e8d79630190d'
+  guild_id: '1098822806273265685'
+  application_id: '936929561302675456'
+  version: '1077969938624553050'
+  id: '938956540159881230'
+
 db_path: 'images.db'
